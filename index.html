@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <title>Ciel Syntax Highlighter</title>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-  <script src="http://jashkenas.github.io/underscore/underscore-min.js"></script>
-  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
   <link href="ciel-monokai.css" rel="stylesheet" type="text/css" />
+  <link href="bower_components/bootstrap/dist/css/bootstrap.css"
+    rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div class="container">
   <h1>Ciel</h1>
   <p>Ciel is a simple module for syntax highlighting in any language. It is
   written in JavaScript and executes on the client-side after page load.</p>
@@ -577,6 +577,9 @@ $('.highlight').each(function() {
   }
 });
 </pre>
+</div>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
 <script src="ciel.js"></script>
 </body>
 </html>

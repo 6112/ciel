@@ -1,15 +1,8 @@
-body {
-  padding-bottom: 20px;
-  font-family: "Open Sans", sans-serif;
-  width: 800px;
-  margin: auto;
-}
-
 .highlight {
   background-color: #272822;
   border: 1px solid #1a1a16;
   box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
-  font-family: "Inconsolata", monospace;
+  font-family: "Source Code Pro", monospace;
   color: #f8f8f2;
 }
 
